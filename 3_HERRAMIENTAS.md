@@ -1,8 +1,11 @@
 
 ---
-# 3. Elementos de programación implementados en el trabajo
+# 3. Herramientas implementadas
 
-## 3.1. Web Scraping
+## 3.1. Elementos de programación
+
+### 3.1.1. Web Scraping
+
 La recolección automatizada de datos se realizó sobre dos portales:
 
 **Portal de microdatos del INEI** - Módulos ENAHO (2020–2024)
@@ -26,7 +29,7 @@ La recolección automatizada de datos se realizó sobre dos portales:
 - Se agregaron headers `User-Agent`, `Referer` y `Accept` para evitar el bloqueo HTTP 403 del servidor
 - Archivo descargado: `anexo_1-idh_2017-2024_a_nivel_distrital.xlsx`
 
-## 3.2. Manejo de bases de datos
+## 3.1.2. Manejo de bases de datos
 El procesamiento de datos se realizó íntegramente en Python con `pandas`:
 
 **Carga y limpieza**
@@ -45,7 +48,7 @@ El procesamiento de datos se realizó íntegramente en Python con `pandas`:
 - Merge con el IDH provincial usando `ubigeo` como llave de unión
 - Consolidación de 5 años (2020–2024) con `pd.concat(..., ignore_index=True)`
 
-## 3.3. Gráficos y visualización
+## 3.1.3. Gráficos y visualización
 Las visualizaciones se produjeron con `matplotlib` y `geopandas`:
 
 - Gráficos de evolución temporal del gasto de bolsillo por año
@@ -53,10 +56,12 @@ Las visualizaciones se produjeron con `matplotlib` y `geopandas`:
 - Mapas distritales del GBS y el IDH usando `geopandas` con shapefiles del INEI
 - Tablas de valores anuales con población expandida usando el factor de expansión `factor07`
 
-## 3.4. Análisis estadístico
+## 3.1.4. Análisis estadístico
 El análisis econométrico se realizó con `statsmodels`:
 
 - Modelos de regresión OLS para estimar la asociación entre nivel educativo, IDH provincial y gasto de bolsillo en salud
 - Variable dependiente: `gasto_bolsillo` (monto anual en soles)
 - Variables independientes principales: nivel educativo individual e IDH provincial
 - Control por tipo de seguro, condición de morbilidad y año
+  
+## 3.2. Herramientas de IA Generativa
