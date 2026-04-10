@@ -36,6 +36,6 @@ Humano 2025 del PNUD Perú.
 - Diego Canales Becerra  
 - Ariana Rodriguez Ramirez
 
-**Curso:** Fundamentos de Programación para IA Generativa - QLAB PUCP (2026-01)
+**Curso:** Fundamentos de Programación para IA Generativa Aplicada a las Ciencias Sociales y la Gestión Pública - QLAB PUCP (2026-01)
 
 **Profesor:** Alfonso Rodriguez Saldarriaga
