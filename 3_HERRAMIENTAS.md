@@ -23,14 +23,13 @@ La recolección automatizada de datos se realizó sobre dos portales:
 - Se iteró sobre 5 años × 4 módulos (200, 300, 34, 400) mediante un bucle anidado con manejo de errores
 - Los archivos `.zip` se descomprimieron en memoria con `zipfile.ZipFile(io.BytesIO(...))` extrayendo únicamente los `.csv`
 
-> **Nota sobre la descarga de datos:** Los datos pueden obtenerse 
-> de dos formas. La **opción manual** consiste en descargarlos 
-> directamente desde el portal de Microdatos del INEI y el 
-> del PNUD Perú. La **opción automatizada (recomendada)** consiste 
-> en ejecutar el script `scripts/WEB_SCRAPING.ipynb`, que descarga 
-> y organiza automáticamente todos los archivos en Google Drive. 
-> Una vez ejecutado, el flujo principal puede correrse desde 
-> `0_MASTER_SCRIPT.ipynb`.
+> **Nota sobre el script de Web Scraping:** El archivo 
+> `scripts/WEB_SCRAPING.ipynb` forma parte de la Tarea Calificada 2
+> del curso, en la que se automatizó la descarga de los módulos ENAHO 
+> (portal del INEI) y el archivo IDH (portal del PNUD Perú) mediante 
+> técnicas de web scraping. Este script se incluye en el repositorio 
+> como evidencia de dicho proceso. El flujo principal del proyecto 
+> corre desde `0_MASTER_SCRIPT.ipynb`.
 
 **PNUD Perú** - Anexo 1: IDH 2017-2024 a nivel distrital
 - Herramienta: `requests` con headers de navegador
