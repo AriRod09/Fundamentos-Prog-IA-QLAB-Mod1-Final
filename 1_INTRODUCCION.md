@@ -1,7 +1,8 @@
 
 
 # Gasto de Bolsillo en Salud en Perú (2020-2024)
-**Integrantes:** Katia Villalobos Carlos y Diego Linares
+**Integrantes:** Katia Villalobos Carlos, Diego Canales y Ariana Rodriguez
+
 **Curso:** Fundamentos de Programación para IA Generativa - QLAB PUCP
 
 
