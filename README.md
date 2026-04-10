@@ -13,7 +13,7 @@ Humano 2025 del PNUD Perú.
 
 | Archivo | Descripción |
 |---------|-------------|
-| `0_MASTER_SCRIPT.ipynb` | Script principal — ejecuta todos los notebooks secuencialmente |
+| `0_MASTER_SCRIPT.ipynb` | Script principal - ejecuta todos los notebooks secuencialmente |
 | `1_INTRODUCCION.md` | Introducción y pregunta de investigación |
 | `2_REVISION_LITERATURA.md` | Revisión de literatura |
 | `3_HERRAMIENTAS.md` | Elementos de programación y herramientas de IA Generativa |
