@@ -37,3 +37,4 @@ Humano 2025 del PNUD Perú.
 - Ariana Rodriguez Ramirez
 
 **Curso:** Fundamentos de Programación para IA Generativa - QLAB PUCP (2026-01)
+**Profesor:** Alfonso Rodriguez Saldarriaga
