@@ -1,3 +1,10 @@
+
+
+# Gasto de Bolsillo en Salud en Perú (2020-2024)
+**Integrantes:** Katia Villalobos Carlos y Diego Linares
+**Curso:** Fundamentos de Programación para IA Generativa - QLAB PUCP
+
+
 ## 1. Introducción
 
 En la Asamblea de Salud de la Organización Mundial de la Salud (OMS) del 2018, la ex-ministra de la salud, Silvia Pessah, expresó el compromiso del Estado peruano con lograr llevar los servicios asistenciales a la población vulnerable. En esa línea, planteó que el Perú se encontraba orientado a implementar una política de cobertura universal en salud (Ministerio de Salud, 2018). Sin embargo, la afiliación a un seguro no se ha traducido en una protección financiera para los/as ciudadanos/as. Esta deficiencia se evidencia en la persistencia e incremento del Gasto de Bolsillo en Salud (GBS) definido como el pago directo que realizan las personas con sus propios recursos al momento de su atención médica. Este pago abarca honorarios médicos, medicamentos e insumos, copagos y deducibles que pagan quienes se encuentran afiliados a algún seguro (Petrera, 2016; Prieto, 2018). Según datos de ComexPerú, basados en la ENAHO, el gasto de bolsillo anual per cápita en el Perú se incrementó de S/.344 a S/.444 entre 2019 y 2023. Este aumento muestra un sistema que no ha logrado recuperarse del colapso sufrido durante la crisis sanitaria por el Covid-19 (2020-2022) y obliga a las familias a tener que desembolsar sumas considerables ante la ineficiencia de la oferta pública (ComexPerú, 2024).
