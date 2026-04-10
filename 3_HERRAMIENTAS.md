@@ -45,7 +45,7 @@ El procesamiento de datos se realizó íntegramente en Python con `pandas`:
 - Merge con el IDH provincial usando `ubigeo` como llave de unión
 - Consolidación de 5 años (2020–2024) con `pd.concat(..., ignore_index=True)`
 
-## 3.3. Gráficos y Visualización
+## 3.3. Gráficos y visualización
 Las visualizaciones se produjeron con `matplotlib` y `geopandas`:
 
 - Gráficos de evolución temporal del gasto de bolsillo por año
@@ -53,7 +53,7 @@ Las visualizaciones se produjeron con `matplotlib` y `geopandas`:
 - Mapas distritales del GBS y el IDH usando `geopandas` con shapefiles del INEI
 - Tablas de valores anuales con población expandida usando el factor de expansión `factor07`
 
-## 3.4. Análisis Estadístico
+## 3.4. Análisis estadístico
 El análisis econométrico se realizó con `statsmodels`:
 
 - Modelos de regresión OLS para estimar la asociación entre nivel educativo, IDH provincial y gasto de bolsillo en salud
