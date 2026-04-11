@@ -73,3 +73,17 @@ El análisis econométrico se realizó con `statsmodels`:
 - Control por tipo de seguro, condición de morbilidad y año
   
 ## 3.2. Herramientas de IA Generativa
+
+En el desarrollo de este proyecto, las herramientas de IA generativa pueden cumplir un rol importante en distintas etapas del flujo de trabajo, desde la planificación del código hasta su revisión, documentación y mejora. Asistentes como Gemini in Colab, Gemini Code Assist, Claude Code y GitHub Copilot permiten generar fragmentos de código, sugerir estructuras para funciones, explicar errores y proponer mejoras en la lógica del programa. Estas herramientas no reemplazan el razonamiento del equipo, pero sí agilizan tareas operativas y facilitan que el equipo concentre más esfuerzo en la calidad metodológica del análisis y en la interpretación de resultados. 
+
+A continuación se detalla cómo podrían aplicarse en cada sección del proyecto:
+
+**Carga y Limpieza de datos:** Gemini in Colab podría asistir en la construcción de variables derivadas como `gasto_bolsillo` o `tiene_seguro`, sugiriendo la lógica de agregación más adecuada. Claude Code podría apoyar en la depuración del merge entre módulos y la identificación de inconsistencias en las llaves de unión (`conglome`, `vivienda`, `hogar`, `codperso`). 
+
+**Estadística Descriptiva:** Claude o Gemini podrían apoyar en la redacción de las interpretaciones de resultados, como la distribución asimétrica del gasto de bolsillo o el patrón por nivel educativo, mejorando su claridad y precisión académica. GitHub Copilot o Gemini Code Assist podrían sugerir funciones para calcular estadísticos ponderados usando el factor de expansión `factor07`. 
+
+**Visualización de datos:** Gemini in Colab podría sugerir paletas de colores, ajustes de escala y etiquetas que mejoren la legibilidad de los gráficos de barras y líneas de tendencia. Para el mapa coroplético de evolución del IDH provincial, Claude podría orientar sobre el uso de `geopandas` y la selección del esquema de clasificación más adecuado. 
+
+**Análisis predictivo:** Claude Code podría apoyar en la especificación del modelo log-lineal y en la interpretación de coeficientes como el del IDH (β = 2.78), cuyo signo positivo resulta contraintuitivo y requiere una lectura cuidadosa. Gemini podría asistir en la redacción de los hallazgos para el informe final, traduciendo los resultados estadísticos a un lenguaje accesible para audiencias de política pública. 
+
+**Documentación y presentación:** Para la redacción del README, los comentarios del código y la presentación final, pueden emplearse herramientas como Claude o Gemini para mejorar la claridad, organización y estilo académico del texto. Como herramienta complementaria, Black puede emplearse para estandarizar el formato del código en todos los notebooks, mejorando su legibilidad y consistencia, aunque no constituye una herramienta de IA generativa.
